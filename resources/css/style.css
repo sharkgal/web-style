@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    z-index: 1;
+}
+
+h1 {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'black ops one', cursive;
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:visited {
+    color: inherit;
+}
+
+nav a:active {
+    color: lightpink;
+}
+
+main {
+    position: relative;
+    top: 120px;
+    background-color: black;
+    color: white;
+}
+
+#palette {
+    border: 1px solid white;
+    margin: 2rem;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'black ops one', cursive;
+    font-size: 3rem;
+}
+
+.palette-container p{
+    display: inline-block;
+    background-color: pink;
+    font-family: 'satisfy', cursive;
+    font-size: 2rem;
+    height: 9rem;
+    width: 18rem;
+    margin: 1.5rem;
+    padding-top: 2rem;
+}
+
+#a {
+    background-color: #f0efef;
+}
+
+#b {
+    background-color: #ddeedd;
+}
+
+#c {
+    background-color: #c2d4dd;
+}
+
+#d {
+    background-color: #b0aac0;
+}
+
+#e {
+    background-color: #e4d1d1;
+}
+
+#f {
+    background-color: #b9b0b0;
+}
+
+#g {
+    background-color: #d9ecd0;
+}
+
+#h {
+    background-color: #77a8a8;
+}
+
+#fonts {
+    border: 1px solid white;
+    margin: 2rem;
+}
+
+.fonts-container p {
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.fonts-container a:link {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+.fonts-container a:hover {
+    font-size: 2.1rem;
+    transition-duration: .2s;
+}
+
+.fonts-container a:visited {
+    color: palevioletred;
+}
+
+.fonts-container a:active {
+    color: lightpink;
+}
+
+#button {
+    border: 1px solid white;
+    margin: 2rem;
+}
+
+.btn {
+    margin: 2rem;
+    padding: 1rem 4rem;
+    background-color: pink;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: coral;
+}
+
+#click:active {
+    background-color: white;
+    border-color: coral;
+    color: coral;
+}
