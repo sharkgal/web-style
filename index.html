@@ -1,61 +1,159 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Website Style Guide</title>
+        <title>SINO-SCI</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, iniatial-scale=1.0">
-        <link rel="stylesheet" href="./resources/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./recources/css/style.css">
     </head>
     <body>
+        <!--header&nav-->
         <header>
-            <h1>MAKE IT &#10024; BEAUTIFUL &#10024;</h1>
-            <nav>
+            <div id="icon-container">
+                <img src="./recources/images/header/logo.png" alt="">
+                <nav class="icon-content">
+                    <ul>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">log-in</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="icon-content" id="icon-mobile">
                 <ul>
-                    <li><a href="#palette">PALETTE</a></li>
-                    <li><a href="#fonts">FONTS</a></li>
-                    <li><a href="#botton">BUTTON</a></li>
+                    <li><a href="#"><img src="./recources/images/header/magnifying-glass-solid.svg" alt="" width="30px"></a></li>
+                    <li><a href="#"><img src="./recources/images/header/shop-solid.svg" alt="" width="30px"></a></li>
+                    <li><a href="#"><img src="./recources/images/header/cart-shopping-solid.svg" alt="" width="30px"></a></li>
+                    <li><a href="#"><img src="./recources/images/header/user-regular.svg" alt="" width="30px"></a></li>
                 </ul>
             </nav>
+            <div id="secondary-nav" class="icon-content">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
         </header>
         <main>
-            <div id="palette">
-                <h3>The Palette</h3>
-                <div class="palette-container">
-                    <p id="a">#f0efef</p>
-                    <p id="b">#ddeedd</p>
-                    <p id="c">#c2d4dd</p>
-                    <p id="d">#b0aac0</p>
-                    <p id="e">#e4d1d1</p>
-                    <p id="f">#b9b0b0</p>
-                    <p id="g">#d9ecd0</p>
-                    <p id="h">#77a8a8</p>
+            <!--banner-->
+            <section id="banner">
+                <h2>Health & Fineness With Science</h2>
+                <h3>Since 1984</h3>
+            </section>
+            <!--attractive-->
+            <section id="attractive">
+                <div class="js-container">
+                        <img src="./recources/images/employee/js.webp" alt="">
+                        <div class="js-content">
+                            <h3>Investigator: Min Feng</h3>
+                            <p>He is an investigator of Chinese Academy of Sciences, President of Nanjing Zhongke group Research Institute, and one of the academic leaders of medicinal fungi anti-tumor project at the Chinese Academy of Sciences. <span><a href="#">Read More</a></span></p>
+                            <p class="non-desktop"><a href="#">Read More</a></p>
+                        </div>
                 </div>
-            </div>
-            <div id="fonts">
-                <h3>The Fonts</h3>
-                <div class="fonts-container">
-                    <div class="serif container">
-                        <p>Check this out to find about <a href="https://en.wikipedia.org/wiki/Serif" target="_blank">SERIF</a></p>
+                <div class="attractive-container">
+                    <div class="attractive-item desktop">
+                        <h3>Sino-Sci Reishi Mushroom Spore Capsules (2nd Gen)</h3>
+                        <p>Sino-Sci Shell-broken Ganoderma Lucidum Spore is made of 100% raw material Ganoderma Lucidum spores by advanced technologies. Immune system booster. Energy supplement. Enhance focus & improve memory. <span><a href="#">Read More</a></span></p>
                     </div>
-                    <div class="sans-serif container">
-                        <p>Check this out to find about <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">SANS-SERIF</a></p>
+                    <div class="attractive-item desktop">
+                        <h3>Sino-Sci Innovation Reishi Spore Oil Softgel</h3>
+                        <p>It takes 100% shell-broken reishi (space breeding) spores as raw material. By adopting the super critical CO2 extraction technology, the extrac ted oil contains more than 40% active Ganoderma triterpenes. <span><a href="#">Read More</a></span></p>
                     </div>
-                    <div class="monospaced container">
-                        <P>Check this out to find about <a href="https://en.wikipedia.org/wiki/Monospaced_font" target="_blank">MONOSPACED</a></P>
+                    <div class="attractive-item tablet">
+                        <h3>Sino-Sci Reishi Mushroom Spore Capsules (2nd Gen)</h3>
+                        <p><span><a href="#">Read More</a></span></p>
+                    </div>
+                    <div class="attractive-item tablet">
+                        <h3>Sino-Sci Innovation Reishi Spore Oil Softgel</h3>
+                        <p><span><a href="#">Read More</a></span></p>
                     </div>
                 </div>
-            </div>
-            <div id="button">
-                <h3>The Button</h3>
-                <div class="button-container">
-                    <button class="hover btn">Hover me</button>
-                    <button class="btn" id="click">Click me</button>
-                    <button class="love btn">Love me</button>
+            </section>
+            <!--products-->
+            <section id="products">
+                <h3 class="header">Products</h3>
+                <div class="products-container">
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/1.webp" alt="">
+                        <h3>Reishi Spore Oil</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/2.webp" alt="">
+                        <h3>Stomach Care Supercritical Extracts</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/3.webp" alt="">
+                        <h3>Shell-broken Ganoderma Lucidum Spore</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/4.jpeg" alt="">
+                        <h3>Diabetic Care</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/5.webp" alt="">
+                        <h3>AT Capsule</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/6.jpg" alt="">
+                        <h3>Turkey Tail Mushroom</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/7.jpg" alt="">
+                        <h3>Cordyceps</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
+                    <a><div class="products-card">
+                        <img src="./recources/images/products/8.webp" alt="">
+                        <h3>Compound Probiotic Solid Beverage</h3>
+                        <p>GMO-free organic products for healthy living</p>
+                    </div></a>
                 </div>
-            </div>
+            </section>
+            <!--location-->
+            <section id="location">
+                <h3>Company Branch</h3>
+                <div class="location-container">
+                    <div class="location-content">
+                        <p>136-33 37 Ave, Flushing, NY 11354<br><span><a href="#">See Details</a></span></p>
+                        <p>136-33 37 Ave, Flushing, NY 11354<br><span><a href="#">See Details</a></span></p>
+                        <p>136-33 37 Ave, Flushing, NY 11354<br><span><a href="#">See Details</a></span></p>
+                    </div>
+                    <div class="map">
+                    <img src="./recources/images/location/vector-roadmap-location-map.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--footer-->
+            <footer>
+                <div id="footer">
+                    <div class="footer-content" id="non-mobile">
+                        <h4>Support</h4>
+                        <p>123-489-5789</p>
+                        <p>zhongke@sinosci.com</p>
+                    </div>
+                    <div class="footer-content" id="non-mobile">
+                        <h4>About Us</h4>
+                        <p><a href="#">History of ZK</a></p>
+                        <p><a href="#">Mile stone</a></p>
+                    </div>
+                    <div class="footer-content" id="mobile">
+                        <h4><a href="#">Support</a></h4>
+                        <h4><a href="#">About Us</a></h4>
+                    </div>
+                </div>
+                <p class="copyright">&copy;2023 SINO-SCI</p>
+            </footer>
         </main>
     </body>
 </html>
